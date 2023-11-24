@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fef6cd;
+  color: #3f8880;
+  transition: background-color 0.3s ease;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.input-group {
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+.input-group-text {
+  background-color: #20c67a;
+  color: white;
+  border: 1px solid #20c67a;
+}
+
+.change-button {
+  height: 50px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 20px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}
